@@ -1,0 +1,22 @@
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 98%;
+    height: 65px;
+    background-color:#282828;
+    padding: 20px;
+}
+.activeOn{
+    position: fixed;
+    bottom: 105px;
+    height: 20px;
+    right: 0px;
+    background-color:#1ac966;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    border-top-left-radius:1rem ;
+    border-bottom-left-radius:2px ;
+      box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}

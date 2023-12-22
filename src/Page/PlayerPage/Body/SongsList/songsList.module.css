@@ -1,0 +1,22 @@
+.songsList__icons{
+display: flex;
+align-items: center;
+}
+
+.icons{
+    margin-right: 20px;
+    color: grey;
+    transition: all 200ms ease-in-out !important;
+}
+.icons:hover{
+color: white;
+}
+.icons__play{
+    font-size: 80px !important; 
+    margin: 25px 20px 20px 10px;
+    transition: all 200ms ease-in-out !important;
+}
+.icons__play:hover{
+    color: #1ac966 ;
+    transform: scale(1.08);
+}

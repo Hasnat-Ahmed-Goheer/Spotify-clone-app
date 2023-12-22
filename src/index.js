@@ -3,11 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { DataProvider } from './Data/DataProvider';
+import { TokenProvider } from './Data/TokenProvider';
+import { PlaylistProvider } from './Data/PlaylistProvider';
+import { SpotifyProvider } from './Data/SpotifyProvider';
+import { PlaylistItemProvider } from './Data/PlaylistItemProvider';
+import { PlaylistIdProvider } from './Data/PlaylistIdProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <DataProvider>
+      <TokenProvider>
+        <PlaylistProvider>
+          <SpotifyProvider>
+            <PlaylistItemProvider>
+              <PlaylistIdProvider>
+                <App />
+              </PlaylistIdProvider>
+            </PlaylistItemProvider>
+          </SpotifyProvider>
+        </PlaylistProvider>
+      </TokenProvider>
+    </DataProvider>
   </React.StrictMode>
 );
 

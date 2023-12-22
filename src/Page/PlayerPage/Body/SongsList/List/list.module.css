@@ -1,0 +1,26 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 5px 0px;
+    color: grey;
+    font-size: 15px;
+    z-index: 100;
+}
+.title1{
+    flex:0.7;
+}
+.span1{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.title2{
+   flex:0.2; 
+}
+.title__icon{
+   flex:0.1; 
+}
+hr{
+    border: grey solid 1px;
+    border-radius: 1px;
+}

@@ -1,0 +1,16 @@
+.headerRight {
+  display: flex;
+  align-items: center;
+  background-color: rgb(13, 13, 13);
+  padding: 0px 20px;
+  border-radius: 2rem;
+  transition: transform 0.2s ease-in;
+  cursor: pointer;
+  min-width: 70px;
+}
+.headerRight:hover {
+  transform: scale(1.04);
+}
+.headerRight > h4 {
+  margin-left: 10px;
+}

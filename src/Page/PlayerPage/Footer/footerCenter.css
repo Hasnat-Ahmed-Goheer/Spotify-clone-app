@@ -1,0 +1,32 @@
+.footerCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+  font-size: 25px;
+  flex: 0.4;
+  max-width: 300px;
+  padding: 0px 100px;
+  transition: color 0.2s ease-in-out;
+}
+.footerCenter__icon{
+  color:grey;
+}
+.on {
+  color: #1ac966;
+}
+
+.footerCenter__icon:hover{
+  color: white;
+}
+.icon {
+  font-size: 50px;
+  color: white;
+  transition: all 0.2s ease-in ;
+
+
+}
+.icon:hover{
+  color: #1ac966 !important;
+  transform: scale(1.2);
+}

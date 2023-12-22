@@ -1,0 +1,10 @@
+.body {
+  flex: 0.8;
+  height: 100vh;
+  padding: 30px;
+  margin-bottom: 65px;
+  color: white;
+  overflow: overlay !important;
+  border-radius: 1rem;
+  background: linear-gradient(rgba(91, 87, 115, 0.9), rgba(0, 0, 0, 1));
+}

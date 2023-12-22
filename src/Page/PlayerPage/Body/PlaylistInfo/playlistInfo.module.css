@@ -1,0 +1,21 @@
+.playlistInfo{
+display: flex;
+align-items: flex-end;
+padding: 10px;
+}
+.playlistInfo > img{
+    height: 15vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.playlistInfoText{
+    flex: 1;
+}
+.playlistInfoText >h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.playlistInfoText >p{
+    font-size: 14px;
+}

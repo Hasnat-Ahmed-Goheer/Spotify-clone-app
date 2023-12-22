@@ -1,0 +1,27 @@
+.sidebar{
+    /* border: 1px sienna solid; */
+    flex: 0.2;
+    background-color: #040404;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    min-width: 230px;
+    height: 100vh;
+    overflow: auto;
+}
+.sidebar__logo{
+    height: 70px;
+    padding: 10px;
+    margin-right: auto;
+
+}
+.sidebar__strong{
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+}
+.sidebar > hr{
+    width: 90%;
+    border: 1px solid #282828;
+    margin: 10px auto;
+
+}

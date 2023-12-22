@@ -1,0 +1,25 @@
+.footerRight {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  max-width: 300px;
+  padding: 0px 50px;
+}
+
+.footerRight__icon {
+  color: grey;
+  transition: color 200ms ease-in;
+}
+.footerRight__icon:hover {
+  color: white;
+}
+.slider {
+  color: #ffffff !important;
+  transition: color 100ms ease-in;
+}
+
+.slider:hover {
+  color: #1ac966 !important;
+}
